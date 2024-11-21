@@ -1,0 +1,218 @@
+body {
+  display: flex;
+}
+
+.sidebar {
+  width: 260px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.pjbservices.com/wp-content/uploads/2024/01/GEDUNG-PLN-NPS.jpg);
+  background-size: cover;
+  background-position: 50% 10%;
+  color: #fff;
+  padding-top: 20px;
+  height: 100vh;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+}
+
+.sidebar .logo {
+  margin-top: -50px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar .logo img {
+  max-width: 60%;
+  height: auto;
+}
+
+.sidebar .profile {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar .profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.sidebar .btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 35px;
+  text-align: left;
+  padding: 10px;
+  border: 2px solid #6c757d;
+  border-radius: 10px;
+  background-color: #021f3f;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all 0.7s ease;
+  font-size: 0.9rem;
+}
+
+.sidebar .m-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 35px;
+  text-align: left;
+  padding: 10px;
+  border: 2px solid #6c757d;
+  border-radius: 0px;
+  background-color: #021f3f;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all 0.7s ease;
+  font-size: 0.9rem;
+}
+
+.sidebar .btn i {
+  margin-right: 10px;
+}
+
+#sidebarToggleBtn .fas {
+  transition: transform 0.3s ease;
+}
+
+.sidebar-minimized #sidebarToggleBtn .fas {
+  transform: rotate(270deg);
+}
+
+.sidebar .menu-text {
+  flex: 1;
+  margin-left: 10px;
+  display: block;
+}
+
+.sidebar .btn:hover {
+  background-color: #495057;
+  border-color: #495057;
+}
+
+.sidebar.sidebar-minimized {
+  width: 100px;
+}
+
+.sidebar.sidebar-minimized .btn {
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  margin-left: 0;
+}
+
+.sidebar.sidebar-minimized .menu-text {
+  display: none;
+}
+
+.sidebar.sidebar-minimized .logo {
+  opacity: 0;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+  border: none;
+  font-size: 14px;
+  padding: 5px;
+  margin-top: 5px;
+  min-width: 100%;
+  border-radius: 0;
+  transition: background-color 5s ease;
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 8px 20px;
+  transition: background-color 3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #495057;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.dropdown .btn {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 0;
+}
+
+.dropdown .btn i {
+  margin-right: 10px;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px 20px;
+}
+
+.dropdown {
+  width: 80%;
+}
+
+.sidebar.sidebar-minimized .profile img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Main Content */
+
+.main-content {
+  background-color: #021f3f;
+  margin-top: 20px;
+  flex-grow: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+  margin-left: 280px;
+  /* Changed from 260px to 280px to add spacing */
+  margin-right: 20px;
+  height: auto;
+}
+
+.main-content-expanded {
+  margin-left: 120px;
+  /* Changed from 100px to 120px to add spacing */
+}
+
+.navbar {
+  background: linear-gradient(to right, #5f63a8, #00b6e3);
+  /* Gradient background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+  /* Change color on hover */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+  /* White color for toggler icon */
+}

@@ -1,0 +1,615 @@
+INFO - 2024-07-22 00:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 00:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 00:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 00:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 00:59:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 91.
+ 1 APPPATH\Views\dashboard.php(91): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 00:59:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 100.
+ 1 APPPATH\Views\dashboard.php(100): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 00:59:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 109.
+ 1 APPPATH\Views\dashboard.php(109): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 00:59:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 171.
+ 1 APPPATH\Views\dashboard.php(171): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 00:59:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 00:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 01:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 01:00:58 --> Memulai proses addUnit
+INFO - 2024-07-22 01:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 01:01:43 --> Memulai proses addUnit
+DEBUG - 2024-07-22 01:01:43 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","DESKRIPSI_PUSAT_BIAYA":"1389101 PLTA CDB - PB Sudirman","JENIS_PEMBANGKIT":"1Pembangkit Listrik Tenaga Air","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-22 01:01:43 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 01:01:43 --> Response status: 400
+DEBUG - 2024-07-22 01:01:43 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 01:01:43 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-22 01:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 01:10:26 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 91.
+ 1 APPPATH\Views\dashboard2.php(91): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:26 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 100.
+ 1 APPPATH\Views\dashboard2.php(100): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:26 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 109.
+ 1 APPPATH\Views\dashboard2.php(109): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:26 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 171.
+ 1 APPPATH\Views\dashboard2.php(171): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:26 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 180.
+ 1 APPPATH\Views\dashboard2.php(180): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 01:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 01:10:32 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 91.
+ 1 APPPATH\Views\dashboard2.php(91): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:32 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 100.
+ 1 APPPATH\Views\dashboard2.php(100): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:32 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 109.
+ 1 APPPATH\Views\dashboard2.php(109): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:32 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 171.
+ 1 APPPATH\Views\dashboard2.php(171): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 01:10:32 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 180.
+ 1 APPPATH\Views\dashboard2.php(180): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 01:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 01:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 01:26:16 --> Memulai proses addUnit
+DEBUG - 2024-07-22 01:26:16 --> Data yang akan dikirim: {"CUSTOMER":"10","UNIT":"jeremi","CATEGORY_CUSTOMER":"2","KODE_PUSAT_BIAYA":"1389101","JENIS_PEMBANGKIT":"1"}
+DEBUG - 2024-07-22 01:26:16 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 01:26:16 --> Response status: 400
+DEBUG - 2024-07-22 01:26:16 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 01:26:16 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-22 01:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 01:36:07 --> Memulai proses addUnit
+DEBUG - 2024-07-22 01:36:07 --> Data yang akan dikirim: {"CUSTOMER":"13","UNIT":"jeremi","CATEGORY_CUSTOMER":"2","KODE_PUSAT_BIAYA":"1389101","JENIS_PEMBANGKIT":"10"}
+DEBUG - 2024-07-22 01:36:07 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 01:36:07 --> Response status: 400
+DEBUG - 2024-07-22 01:36:07 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 01:36:07 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-22 01:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 01:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 01:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 01:41:37 --> Memulai proses addUnit
+DEBUG - 2024-07-22 01:41:37 --> Data yang akan dikirim: {"CUSTOMER":"10","UNIT":"jeremi","CATEGORY_CUSTOMER":"2","KODE_PUSAT_BIAYA":"1389101","JENIS_PEMBANGKIT":"1","PIC":"Development & CRM"}
+DEBUG - 2024-07-22 01:41:37 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 01:41:37 --> Response status: 400
+DEBUG - 2024-07-22 01:41:37 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 01:41:37 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-22 01:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 01:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 01:54:44 --> Memulai proses addUnit
+INFO - 2024-07-22 01:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 01:55:41 --> Memulai proses addUnit
+DEBUG - 2024-07-22 01:55:41 --> Data yang akan dikirim: {"idCustomer":"10","unitName":"jeremi","idCategoryCustomer":"2","costCenter":"1389101","idGeneratorType":"1","createdBy":"Development & CRM"}
+DEBUG - 2024-07-22 01:55:41 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 01:55:41 --> Response status: 400
+DEBUG - 2024-07-22 01:55:41 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 01:55:41 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-22 01:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 02:00:00 --> Memulai proses addUnit
+DEBUG - 2024-07-22 02:00:00 --> Data yang akan dikirim: {"idCustomer":"10","unitName":"jeremi","idCategoryCustomer":"2","costCenter":"1389101","idGeneratorType":"10","createdBy":"Development & CRM"}
+DEBUG - 2024-07-22 02:00:00 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 02:00:00 --> Response status: 400
+DEBUG - 2024-07-22 02:00:00 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 02:00:00 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-22 02:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 02:01:10 --> Memulai proses addUnit
+DEBUG - 2024-07-22 02:01:10 --> Data yang akan dikirim: {"idCustomer":"18","unitName":"jeremi","idCategoryCustomer":"2","costCenter":"1389101","idGeneratorType":"1","createBy":"Development & CRM"}
+DEBUG - 2024-07-22 02:01:10 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 02:01:10 --> Response status: 200
+DEBUG - 2024-07-22 02:01:10 --> Response body: {"success":true,"message":"Success Create Unit Data"}
+ERROR - 2024-07-22 02:01:10 --> Error saat menambahkan unit: Undefined array key "data"
+ERROR - 2024-07-22 02:01:10 --> Stack trace: #0 C:\xampp\htdocs\magang\ci4\app\Controllers\ApiController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+#2 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#3 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang\ci4\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\magang\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+INFO - 2024-07-22 02:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 02:03:17 --> Memulai proses addUnit
+DEBUG - 2024-07-22 02:03:17 --> Data yang akan dikirim: {"idCustomer":"10","unitName":"jeremi","idCategoryCustomer":"2","costCenter":"1389101","idGeneratorType":"1","createBy":"Development & CRM"}
+DEBUG - 2024-07-22 02:03:17 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 02:03:17 --> Response status: 200
+DEBUG - 2024-07-22 02:03:17 --> Response body: {"success":true,"message":"Success Create Unit Data"}
+ERROR - 2024-07-22 02:03:17 --> Error saat menambahkan unit: Undefined array key "data"
+ERROR - 2024-07-22 02:03:17 --> Stack trace: #0 C:\xampp\htdocs\magang\ci4\app\Controllers\ApiController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+#2 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#3 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang\ci4\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 C:\xampp\htdocs\magang\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+INFO - 2024-07-22 02:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 02:07:33 --> Memulai proses addUnit
+DEBUG - 2024-07-22 02:07:33 --> Data yang akan dikirim: {"idCustomer":"10","unitName":"jeremi","idCategoryCustomer":"2","costCenter":"1389101","idGeneratorType":"1","createBy":"Development & CRM"}
+DEBUG - 2024-07-22 02:07:33 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 02:07:33 --> Response status: 200
+DEBUG - 2024-07-22 02:07:33 --> Response body: {"success":true,"message":"Success Create Unit Data"}
+INFO - 2024-07-22 02:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 02:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 02:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 02:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 02:56:43 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 02:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 02:57:00 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-07-22 02:57:00 --> Edit method called with ID: 174
+DEBUG - 2024-07-22 02:57:00 --> Memulai proses editUnit
+DEBUG - 2024-07-22 02:57:00 --> Data yang akan dikirim: {"idCustomer":null,"unitName":null,"idCategoryCustomer":null,"costCenter":null,"idGeneratorType":null,"status":0}
+DEBUG - 2024-07-22 02:57:00 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 02:57:00 --> Response status: 400
+DEBUG - 2024-07-22 02:57:00 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 02:57:00 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+WARNING - 2024-07-22 03:02:49 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 03:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 03:03:54 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-07-22 03:03:54 --> Edit method called with ID: undefined
+DEBUG - 2024-07-22 03:03:54 --> Memulai proses editUnit
+DEBUG - 2024-07-22 03:03:54 --> Data yang akan dikirim: {"idCustomer":"PERTAMINA, PT","unitName":"jeremi2","idCategoryCustomer":"Non PLN Group","costCenter":"13891101389110 PLTA CDB - Renun","idGeneratorType":"11Pembangkit Listrik Tenaga Samudra","status":1}
+DEBUG - 2024-07-22 03:03:54 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 03:03:54 --> Response status: 400
+DEBUG - 2024-07-22 03:03:54 --> Response body: {"success":false,"message":"Failed Update Unit Data","data":"ORA-00933: SQL command not properly ended"}
+ERROR - 2024-07-22 03:03:54 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Failed Update Unit Data","data":"ORA-00933: SQL command not properly ended"}
+WARNING - 2024-07-22 03:12:26 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-07-22 03:12:26 --> Edit method called with ID: undefined
+DEBUG - 2024-07-22 03:12:26 --> Memulai proses editUnit
+DEBUG - 2024-07-22 03:12:26 --> Data yang akan dikirim: {"idCustomer":"PERTAMINA, PT","unitName":"jeremi2","idCategoryCustomer":"Non PLN Group","costCenter":"13891101389110 PLTA CDB - Renun","idGeneratorType":"11Pembangkit Listrik Tenaga Samudra","status":1}
+DEBUG - 2024-07-22 03:12:26 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 03:12:26 --> Response status: 400
+DEBUG - 2024-07-22 03:12:26 --> Response body: {"success":false,"message":"Failed Update Unit Data","data":"ORA-00933: SQL command not properly ended"}
+ERROR - 2024-07-22 03:12:26 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Failed Update Unit Data","data":"ORA-00933: SQL command not properly ended"}
+WARNING - 2024-07-22 03:18:19 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 03:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 03:19:48 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 03:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 03:20:15 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-07-22 03:20:15 --> Edit method called with ID: undefined
+DEBUG - 2024-07-22 03:20:15 --> Memulai proses editUnit
+DEBUG - 2024-07-22 03:20:15 --> Data yang akan dikirim: {"idCustomer":"14","unitName":"jeremi2","idCategoryCustomer":"1000","costCenter":"1389110","idGeneratorType":"10","status":1}
+DEBUG - 2024-07-22 03:20:15 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 03:20:15 --> Response status: 400
+DEBUG - 2024-07-22 03:20:15 --> Response body: {"success":false,"message":"Failed Update Unit Data","data":"ORA-00904: \"UNDEFINED\": invalid identifier"}
+ERROR - 2024-07-22 03:20:15 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Failed Update Unit Data","data":"ORA-00904: \"UNDEFINED\": invalid identifier"}
+WARNING - 2024-07-22 03:37:28 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 03:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 03:40:24 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->match([...], 'dataunit/edit/(:segment)', 'ApiController::edit/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\magang\\ci4\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 03:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 03:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 03:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 03:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 03:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 03:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 03:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 04:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 04:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 04:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 04:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 04:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 04:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 04:20:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 91.
+ 1 APPPATH\Views\dashboard2.php(91): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 100.
+ 1 APPPATH\Views\dashboard2.php(100): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 109.
+ 1 APPPATH\Views\dashboard2.php(109): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 171.
+ 1 APPPATH\Views\dashboard2.php(171): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 180.
+ 1 APPPATH\Views\dashboard2.php(180): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 04:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-22 04:20:30 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 91.
+ 1 APPPATH\Views\dashboard2.php(91): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:30 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 100.
+ 1 APPPATH\Views\dashboard2.php(100): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:30 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 109.
+ 1 APPPATH\Views\dashboard2.php(109): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:30 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 171.
+ 1 APPPATH\Views\dashboard2.php(171): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-22 04:20:30 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard2.php on line 180.
+ 1 APPPATH\Views\dashboard2.php(180): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(147): view('dashboard2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 04:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 04:21:35 --> Memulai proses addUnit
+DEBUG - 2024-07-22 04:21:35 --> Data yang akan dikirim: {"idCustomer":"13","unitName":"jeremi2","idCategoryCustomer":"3","costCenter":"","idGeneratorType":"1","createBy":"Development & CRM"}
+DEBUG - 2024-07-22 04:21:35 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 04:21:35 --> Response status: 400
+DEBUG - 2024-07-22 04:21:35 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-22 04:21:35 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+DEBUG - 2024-07-22 04:21:57 --> Memulai proses addUnit
+DEBUG - 2024-07-22 04:21:57 --> Data yang akan dikirim: {"idCustomer":"13","unitName":"jeremi2","idCategoryCustomer":"3","costCenter":"1389114","idGeneratorType":"1","createBy":"Development & CRM"}
+DEBUG - 2024-07-22 04:21:57 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-22 04:21:57 --> Response status: 200
+DEBUG - 2024-07-22 04:21:57 --> Response body: {"success":true,"message":"Success Create Unit Data"}
+INFO - 2024-07-22 04:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 06:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 06:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-22 06:36:01 --> Error saat mengambil data: Undefined variable $idCustomer
+CRITICAL - 2024-07-22 06:36:01 --> ErrorException: Undefined variable $idCustomer
+[Method: GET, Route: dataunit]
+in APPPATH\Views\pageSetting\dataUnit.php on line 142.
+ 1 APPPATH\Views\pageSetting\dataUnit.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idCustomer', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php', 142)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dataUnit', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(241): view('pageSetting/dataUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-22 06:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:16:54 --> Data yang diterima: {"ID":"175","Nama-Unit":"jeremi22","kategori":1000,"customer":13,"pusat-biaya":1389102,"jenis-pembangkit":11,"status":"Aktif"}
+ERROR - 2024-07-22 07:16:54 --> Error saat mengupdate data: 60 : SSL certificate problem: unable to get local issuer certificate
+DEBUG - 2024-07-22 07:16:59 --> Data yang diterima: {"ID":"175","Nama-Unit":"jeremi22","kategori":1000,"customer":13,"pusat-biaya":1389102,"jenis-pembangkit":11,"status":"Aktif"}
+ERROR - 2024-07-22 07:16:59 --> Error saat mengupdate data: 60 : SSL certificate problem: unable to get local issuer certificate
+INFO - 2024-07-22 07:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:18:54 --> Data yang diterima: {"ID":"175","Nama-Unit":"jeremi22","kategori":2000,"customer":13,"pusat-biaya":1389102,"jenis-pembangkit":10,"status":"Aktif"}
+ERROR - 2024-07-22 07:18:54 --> Error saat mengupdate data: 22 : The requested URL returned error: 404
+INFO - 2024-07-22 07:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:20:52 --> Data yang diterima: {"ID":"177","Nama-Unit":"jeremi122","kategori":2,"customer":10,"pusat-biaya":1389101,"jenis-pembangkit":1,"status":"Aktif"}
+ERROR - 2024-07-22 07:20:52 --> Error saat mengupdate data: 22 : The requested URL returned error: 404
+INFO - 2024-07-22 07:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:22:36 --> URL yang diakses: https://codev-api.plnipservices.co.id/api/settings/unit/
+DEBUG - 2024-07-22 07:22:36 --> Data yang diterima: {"ID":"175","Nama-Unit":"jeremi122","kategori":2,"customer":10,"pusat-biaya":1389101,"jenis-pembangkit":1,"status":"Aktif"}
+ERROR - 2024-07-22 07:22:36 --> Error saat mengupdate data: 22 : The requested URL returned error: 404
+INFO - 2024-07-22 07:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:26:48 --> URL yang diakses: https://codev-api.plnipservices.co.id/api/settings/unit/174
+DEBUG - 2024-07-22 07:26:48 --> Data yang dikirim ke API: {"Nama-Unit":"jeremi122","kategori":2,"customer":10,"pusat-biaya":2280601,"jenis-pembangkit":1,"status":"Aktif"}
+ERROR - 2024-07-22 07:26:48 --> Error saat mengupdate data: 22 : The requested URL returned error: 400
+INFO - 2024-07-22 07:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:30:12 --> URL yang diakses: https://codev-api.plnipservices.co.id/api/settings/unit/175
+DEBUG - 2024-07-22 07:30:12 --> Data yang dikirim ke API: {"Nama-Unit":"jeremi122","kategori":"2","customer":"12","pusat-biaya":"1389101","jenis-pembangkit":"1","status":1}
+ERROR - 2024-07-22 07:30:12 --> Error saat mengupdate data: 22 : The requested URL returned error: 400
+INFO - 2024-07-22 07:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:32:58 --> URL yang diakses: https://codev-api.plnipservices.co.id/api/settings/unit/174
+DEBUG - 2024-07-22 07:32:58 --> Data yang dikirim ke API: {"unitName":"jeremi122","idCategoryCustomer":"3","idCustomer":"12","costCenter":"1389101","idGeneratorType":"1","status":1}
+DEBUG - 2024-07-22 07:32:58 --> Response API: {"success":true,"message":"Success Update Unit Data"}
+INFO - 2024-07-22 07:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-22 07:35:50 --> URL yang diakses: https://codev-api.plnipservices.co.id/api/settings/unit/174
+DEBUG - 2024-07-22 07:35:50 --> Data yang dikirim ke API: {"unitName":"Jeremiii","idCategoryCustomer":"2","idCustomer":"12","costCenter":"1389101","idGeneratorType":"11","status":1}
+DEBUG - 2024-07-22 07:35:50 --> Response API: {"success":true,"message":"Success Update Unit Data"}
+INFO - 2024-07-22 07:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-22 07:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

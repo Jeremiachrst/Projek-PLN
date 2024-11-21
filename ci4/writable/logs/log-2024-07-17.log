@@ -1,0 +1,270 @@
+CRITICAL - 2024-07-17 02:10:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pageSetting/estimasiPenyerapan.php"
+[Method: GET, Route: estimasiPenyerapan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pageSetting/estimasiPenyerapan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/estimasiPenyerapan', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(134): view('pageSetting/estimasiPenyerapan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->estimasiPenyerapan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 02:16:52 --> ErrorException: file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[Method: GET, Route: /]
+in APPPATH\Views\login.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php', 12)
+ 2 APPPATH\Views\login.php(12): file_get_contents('http://localhost/magang/ci4/css/style.css')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Login', [], true)
+ 6 APPPATH\Controllers\LoginController.php(11): view('Login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 02:16:55 --> ErrorException: file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[Method: GET, Route: /]
+in APPPATH\Views\login.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php', 12)
+ 2 APPPATH\Views\login.php(12): file_get_contents('http://localhost/magang/ci4/css/style.css')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Login', [], true)
+ 6 APPPATH\Controllers\LoginController.php(11): view('Login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 02:16:55 --> ErrorException: file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[Method: GET, Route: /]
+in APPPATH\Views\login.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php', 12)
+ 2 APPPATH\Views\login.php(12): file_get_contents('http://localhost/magang/ci4/css/style.css')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Login', [], true)
+ 6 APPPATH\Controllers\LoginController.php(11): view('Login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 02:16:57 --> ErrorException: file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[Method: GET, Route: /]
+in APPPATH\Views\login.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/magang/ci4/css/style.css): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php', 12)
+ 2 APPPATH\Views\login.php(12): file_get_contents('http://localhost/magang/ci4/css/style.css')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Login', [], true)
+ 6 APPPATH\Controllers\LoginController.php(11): view('Login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 03:08:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/navbar.php"
+[Method: GET, Route: proyeksi]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/navbar.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('template/navbar', null, true)
+ 3 APPPATH\Views\pageSetting\proyeksi.php(21): CodeIgniter\View\View->include('template/navbar')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\proyeksi.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/proyeksi', [], true)
+ 7 APPPATH\Controllers\DashboardController.php(130): view('pageSetting/proyeksi')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->Proyeksi()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:24:08 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:24:43 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:26:03 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:27:04 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:27:15 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:27:58 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:28:01 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:32:28 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:35:46 --> ErrorException: Attempt to read property "message" on null
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 105.
+ 1 APPPATH\Controllers\DashboardController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "message" on null', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:37:40 --> ErrorException: Attempt to read property "message" on null
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 105.
+ 1 APPPATH\Controllers\DashboardController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "message" on null', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:38:05 --> ErrorException: Attempt to read property "message" on null
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 105.
+ 1 APPPATH\Controllers\DashboardController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "message" on null', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:38:37 --> ErrorException: Attempt to read property "message" on null
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 105.
+ 1 APPPATH\Controllers\DashboardController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "message" on null', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:42:50 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-17 04:48:25 --> ErrorException: Attempt to read property "CUSTOMER" on array
+[Method: GET, Route: dataunit]
+in APPPATH\Controllers\DashboardController.php on line 111.
+ 1 APPPATH\Controllers\DashboardController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CUSTOMER" on array', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Controllers\\DashboardController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-17 06:32:50 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:36:24 --> Error saat mengambil data unit: Invalid file: "units/index.php"
+CRITICAL - 2024-07-17 06:36:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "units/index.php"
+[Method: GET, Route: dataunit]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('units/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('units/index', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(136): view('units/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-17 06:47:13 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:48:16 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:49:20 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:50:32 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:51:05 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:52:13 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:52:14 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 06:52:28 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:00:53 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:20:48 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:21:30 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:24:58 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:26:46 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:27:03 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:27:23 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:27:37 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:33:36 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:40:33 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 07:43:36 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-17 08:03:23 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate

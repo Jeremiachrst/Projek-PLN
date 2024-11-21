@@ -1,0 +1,36 @@
+CRITICAL - 2024-07-16 07:59:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "confidence.php"
+[Method: GET, Route: confidence]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('confidence.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('confidence', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(126): view('confidence')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->confidence()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 07:59:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "proyeksi.php"
+[Method: GET, Route: proyeksi]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proyeksi.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('proyeksi', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(130): view('proyeksi')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->Proyeksi()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 07:59:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "estimasiPenyerapan.php"
+[Method: GET, Route: estimasiPenyerapan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasiPenyerapan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('estimasiPenyerapan', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(134): view('estimasiPenyerapan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->estimasiPenyerapan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

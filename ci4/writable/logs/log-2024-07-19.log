@@ -1,0 +1,427 @@
+CRITICAL - 2024-07-19 01:35:56 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:35:57 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:35:58 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:35:58 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:35:59 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:00 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:00 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:00 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:01 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:01 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:03 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:03 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:04 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:36:04 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 01:51:40 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 261.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 02:05:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pageSetting/dashboard.php"
+[Method: GET, Route: dashboard2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pageSetting/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dashboard', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(99): view('pageSetting/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 02:08:03 --> ErrorException: Undefined variable $eksistingApproveRP
+[Method: GET, Route: dashboard2]
+in APPPATH\Views\dashboard2.php on line 61.
+ 1 APPPATH\Views\dashboard2.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eksistingApproveRP', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard2', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(99): view('dashboard2')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dashboard2()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-19 04:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 04:34:32 --> Data yang dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+ERROR - 2024-07-19 04:34:32 --> 60 : SSL certificate problem: unable to get local issuer certificate
+DEBUG - 2024-07-19 04:34:48 --> Data yang dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+ERROR - 2024-07-19 04:34:49 --> 60 : SSL certificate problem: unable to get local issuer certificate
+INFO - 2024-07-19 04:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 04:36:42 --> Received data: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+ERROR - 2024-07-19 04:36:42 --> HTTP Exception: 60 : SSL certificate problem: unable to get local issuer certificate
+CRITICAL - 2024-07-19 04:36:42 --> CodeIgniter\HTTP\Exceptions\HTTPException: 0 is not a valid HTTP return status code
+[Method: POST, Route: unit/create]
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(82): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidStatusCode(0)
+ 2 APPPATH\Controllers\ApiController.php(39): CodeIgniter\HTTP\Response->setStatusCode(0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-07-19 04:36:51 --> Received data: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+ERROR - 2024-07-19 04:36:51 --> HTTP Exception: 60 : SSL certificate problem: unable to get local issuer certificate
+CRITICAL - 2024-07-19 04:36:51 --> CodeIgniter\HTTP\Exceptions\HTTPException: 0 is not a valid HTTP return status code
+[Method: POST, Route: unit/create]
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(82): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidStatusCode(0)
+ 2 APPPATH\Controllers\ApiController.php(39): CodeIgniter\HTTP\Response->setStatusCode(0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-19 04:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 04:37:57 --> Received data: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+ERROR - 2024-07-19 04:37:57 --> HTTP Exception: 60 : SSL certificate problem: unable to get local issuer certificate
+CRITICAL - 2024-07-19 04:37:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: 0 is not a valid HTTP return status code
+[Method: POST, Route: unit/create]
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(82): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidStatusCode(0)
+ 2 APPPATH\Controllers\ApiController.php(39): CodeIgniter\HTTP\Response->setStatusCode(0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-19 06:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-19 06:20:07 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to insert an entry.
+[Method: POST, Route: unit/create]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2374.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2314): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH\Controllers\ApiController.php(22): CodeIgniter\Database\BaseBuilder->insert([])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-19 06:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 06:41:57 --> Memulai proses addUnit
+DEBUG - 2024-07-19 06:41:57 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 06:41:57 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 06:41:57 --> Error saat menambahkan unit: 60 : SSL certificate problem: unable to get local issuer certificate
+INFO - 2024-07-19 06:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 06:44:53 --> Memulai proses addUnit
+DEBUG - 2024-07-19 06:44:53 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 06:44:53 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 06:44:53 --> Error saat menambahkan unit: 60 : SSL certificate problem: unable to get local issuer certificate
+INFO - 2024-07-19 06:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 06:46:51 --> Memulai proses addUnit
+DEBUG - 2024-07-19 06:46:51 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 06:46:51 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 06:46:51 --> Error saat menambahkan unit: 60 : SSL certificate problem: unable to get local issuer certificate
+INFO - 2024-07-19 06:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 06:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 06:50:36 --> Memulai proses addUnit
+DEBUG - 2024-07-19 06:50:36 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 06:50:36 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 06:50:36 --> Error saat menambahkan unit: 60 : SSL certificate problem: unable to get local issuer certificate
+INFO - 2024-07-19 07:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:25:58 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:25:58 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 07:25:58 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 07:25:58 --> Error saat menambahkan unit: 22 : The requested URL returned error: 400
+ERROR - 2024-07-19 07:25:58 --> Stack trace: #0 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://codev-a...')
+#3 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://codev-a...', Array)
+#4 C:\xampp\htdocs\magang\ci4\app\Controllers\ApiController.php(37): CodeIgniter\HTTP\CURLRequest->post('https://codev-a...', Array)
+#5 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+#6 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang\ci4\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\magang\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+DEBUG - 2024-07-19 07:26:06 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:26:06 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 07:26:06 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 07:26:06 --> Error saat menambahkan unit: 22 : The requested URL returned error: 400
+ERROR - 2024-07-19 07:26:06 --> Stack trace: #0 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://codev-a...')
+#3 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://codev-a...', Array)
+#4 C:\xampp\htdocs\magang\ci4\app\Controllers\ApiController.php(37): CodeIgniter\HTTP\CURLRequest->post('https://codev-a...', Array)
+#5 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+#6 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang\ci4\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\magang\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+INFO - 2024-07-19 07:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-19 07:26:41 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 91.
+ 1 APPPATH\Views\dashboard.php(91): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-19 07:26:41 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 100.
+ 1 APPPATH\Views\dashboard.php(100): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-19 07:26:41 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 109.
+ 1 APPPATH\Views\dashboard.php(109): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-19 07:26:41 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 171.
+ 1 APPPATH\Views\dashboard.php(171): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-07-19 07:26:41 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard.php on line 180.
+ 1 APPPATH\Views\dashboard.php(180): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(90): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-19 07:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:26:57 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:26:57 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 07:26:57 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 07:26:57 --> Error saat menambahkan unit: 22 : The requested URL returned error: 400
+ERROR - 2024-07-19 07:26:57 --> Stack trace: #0 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://codev-a...')
+#3 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://codev-a...', Array)
+#4 C:\xampp\htdocs\magang\ci4\app\Controllers\ApiController.php(37): CodeIgniter\HTTP\CURLRequest->post('https://codev-a...', Array)
+#5 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+#6 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang\ci4\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\magang\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+INFO - 2024-07-19 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:31:17 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:31:17 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 07:31:17 --> Request payload: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":""}
+DEBUG - 2024-07-19 07:31:17 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 07:31:17 --> Error saat menambahkan unit: 22 : The requested URL returned error: 400
+ERROR - 2024-07-19 07:31:17 --> Stack trace: #0 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://codev-a...')
+#3 C:\xampp\htdocs\magang\ci4\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://codev-a...', Array)
+#4 C:\xampp\htdocs\magang\ci4\app\Controllers\ApiController.php(39): CodeIgniter\HTTP\CURLRequest->post('https://codev-a...', Array)
+#5 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+#6 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 C:\xampp\htdocs\magang\ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang\ci4\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\magang\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+INFO - 2024-07-19 07:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:35:17 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:35:17 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-"}
+DEBUG - 2024-07-19 07:35:17 --> Request payload: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-"}
+DEBUG - 2024-07-19 07:35:17 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 07:35:17 --> HTTP Error: 22 : The requested URL returned error: 400
+ERROR - 2024-07-19 07:35:17 --> Status Code: 0
+CRITICAL - 2024-07-19 07:35:17 --> CodeIgniter\HTTP\Exceptions\HTTPException: 0 is not a valid HTTP return status code
+[Method: POST, Route: dataunit/addUnit]
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(82): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidStatusCode(0)
+ 2 APPPATH\Controllers\ApiController.php(74): CodeIgniter\HTTP\Response->setStatusCode(0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-19 07:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:35:49 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:35:49 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+DEBUG - 2024-07-19 07:35:49 --> Request payload: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+DEBUG - 2024-07-19 07:35:49 --> Mencoba mengirim request ke API
+ERROR - 2024-07-19 07:35:49 --> HTTP Error: 22 : The requested URL returned error: 400
+ERROR - 2024-07-19 07:35:49 --> Status Code: 0
+CRITICAL - 2024-07-19 07:35:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: 0 is not a valid HTTP return status code
+[Method: POST, Route: dataunit/addUnit]
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(82): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidStatusCode(0)
+ 2 APPPATH\Controllers\ApiController.php(74): CodeIgniter\HTTP\Response->setStatusCode(0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ApiController->addUnit()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-19 07:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:37:18 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:37:18 --> Data yang akan dikirim: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+DEBUG - 2024-07-19 07:37:18 --> Request payload: {"Nama-Unit":"jeremi","kategori":"IP Group","customer":"PLN INDONESIA POWER, PT","pusat-biaya":"00 -","jenis-pembangkit":"0-","PIC":"Nama PIC Default"}
+DEBUG - 2024-07-19 07:37:18 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 07:37:18 --> Response status: 400
+DEBUG - 2024-07-19 07:37:18 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 07:37:18 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 07:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:39:30 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:39:30 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"00","JENIS_PEMBANGKIT":"0-","STATUS":"1"}
+DEBUG - 2024-07-19 07:39:30 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 07:39:30 --> Response status: 400
+DEBUG - 2024-07-19 07:39:30 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 07:39:30 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 07:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:46:08 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:46:08 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"00 -","DESKRIPSI_PUSAT_BIAYA":"00 -","JENIS_PEMBANGKIT":"0-","STATUS":1,"ID_UNIT":200}
+DEBUG - 2024-07-19 07:46:08 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 07:46:08 --> Response status: 400
+DEBUG - 2024-07-19 07:46:08 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 07:46:08 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 07:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:52:21 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:52:21 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"00 -","DESKRIPSI_PUSAT_BIAYA":"00 -","JENIS_PEMBANGKIT":"0-","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-19 07:52:21 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 07:52:21 --> Response status: 400
+DEBUG - 2024-07-19 07:52:21 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 07:52:21 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 07:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:54:23 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:54:23 --> Data yang akan dikirim: {"CUSTOMER":"jeremi","UNIT":"jeremi","CATEGORY_CUSTOMER":"jeremi","KODE_PUSAT_BIAYA":"jeremi","DESKRIPSI_PUSAT_BIAYA":"jeremi","JENIS_PEMBANGKIT":"jeremi","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-19 07:54:23 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 07:54:23 --> Response status: 400
+DEBUG - 2024-07-19 07:54:23 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 07:54:23 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 07:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:57:06 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:57:06 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"13891011389101 PLTA CDB - PB Sudirman","DESKRIPSI_PUSAT_BIAYA":"13891011389101 PLTA CDB - PB Sudirman","JENIS_PEMBANGKIT":"1Pembangkit Listrik Tenaga Air","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-19 07:57:06 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 07:57:06 --> Response status: 400
+DEBUG - 2024-07-19 07:57:06 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 07:57:06 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 07:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 07:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 07:59:09 --> Memulai proses addUnit
+DEBUG - 2024-07-19 07:59:32 --> Memulai proses addUnit
+INFO - 2024-07-19 08:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:02:37 --> Memulai proses addUnit
+INFO - 2024-07-19 08:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:15:13 --> Memulai proses addUnit
+INFO - 2024-07-19 08:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:15:54 --> Memulai proses addUnit
+INFO - 2024-07-19 08:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:16:55 --> Memulai proses addUnit
+INFO - 2024-07-19 08:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:18:17 --> Memulai proses addUnit
+DEBUG - 2024-07-19 08:18:17 --> Data yang akan dikirim: {"CUSTOMER":"LESTARI BANTEN ENERGI, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"13891011389101 PLTA CDB - PB Sudirman","DESKRIPSI_PUSAT_BIAYA":"13891011389101 PLTA CDB - PB Sudirman","JENIS_PEMBANGKIT":"1Pembangkit Listrik Tenaga Air","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-19 08:18:17 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 08:18:17 --> Response status: 400
+DEBUG - 2024-07-19 08:18:17 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 08:18:17 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 08:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:20:20 --> Memulai proses addUnit
+DEBUG - 2024-07-19 08:20:20 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"12323","DESKRIPSI_PUSAT_BIAYA":"13891011389101 PLTA CDB - PB Sudirman","JENIS_PEMBANGKIT":"1Pembangkit Listrik Tenaga Air","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-19 08:20:20 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 08:20:20 --> Response status: 400
+DEBUG - 2024-07-19 08:20:20 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 08:20:20 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 08:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:26:34 --> Memulai proses addUnit
+DEBUG - 2024-07-19 08:26:34 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"1389101 PLTA CDB - PB Sudirman","DESKRIPSI_PUSAT_BIAYA":"1389101 PLTA CDB - PB Sudirman","JENIS_PEMBANGKIT":"10Pembangkit Listrik Tenaga Gelombang","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-19 08:26:34 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 08:26:35 --> Response status: 400
+DEBUG - 2024-07-19 08:26:35 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 08:26:35 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}
+INFO - 2024-07-19 08:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-07-19 08:39:49 --> Memulai proses addUnit
+DEBUG - 2024-07-19 08:39:49 --> Data yang akan dikirim: {"CUSTOMER":"PLN INDONESIA POWER, PT","UNIT":"jeremi","CATEGORY_CUSTOMER":"IP Group","KODE_PUSAT_BIAYA":"1389101 PLTA CDB - PB Sudirman","DESKRIPSI_PUSAT_BIAYA":"1389101 PLTA CDB - PB Sudirman","JENIS_PEMBANGKIT":"1Pembangkit Listrik Tenaga Air","STATUS":1,"ID_UNIT":"200"}
+DEBUG - 2024-07-19 08:39:49 --> Mencoba mengirim request ke API
+DEBUG - 2024-07-19 08:39:49 --> Response status: 400
+DEBUG - 2024-07-19 08:39:49 --> Response body: {"success":false,"message":"Please Input Form Properly"}
+ERROR - 2024-07-19 08:39:49 --> API mengembalikan respons error. Status: 400, Body: {"success":false,"message":"Please Input Form Properly"}

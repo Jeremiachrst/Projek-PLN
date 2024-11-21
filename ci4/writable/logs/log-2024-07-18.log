@@ -1,0 +1,111 @@
+ERROR - 2024-07-18 01:21:03 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 01:23:15 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 01:23:43 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 01:49:36 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 01:53:24 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 01:57:28 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 01:58:13 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:01:19 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:01:28 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:01:40 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:24:22 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:47:16 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:49:15 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:50:02 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:50:03 --> Error saat mengambil data unit: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2024-07-18 02:50:45 --> Error saat mengambil data unit: Cannot set SSL Key. "false" is not a valid file.
+ERROR - 2024-07-18 03:38:11 --> Error saat mengambil data: Undefined array key "id"
+ERROR - 2024-07-18 03:38:12 --> Error saat mengambil data: Undefined array key "id"
+ERROR - 2024-07-18 03:40:08 --> Error saat mengambil data: Undefined array key "id"
+ERROR - 2024-07-18 03:45:01 --> Error saat mengambil data: Undefined array key "data"
+CRITICAL - 2024-07-18 03:45:01 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: dataunit]
+in APPPATH\Views\pageSetting\dataUnit.php on line 154.
+ 1 APPPATH\Views\pageSetting\dataUnit.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php', 154)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dataUnit', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(151): view('pageSetting/dataUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-18 03:48:29 --> Error saat mengambil data: Array to string conversion
+ERROR - 2024-07-18 03:51:27 --> Error saat mengambil data: Undefined array key "data"
+CRITICAL - 2024-07-18 03:51:27 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: dataunit]
+in APPPATH\Views\pageSetting\dataUnit.php on line 148.
+ 1 APPPATH\Views\pageSetting\dataUnit.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dataUnit', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(151): view('pageSetting/dataUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-18 03:51:47 --> Error saat mengambil data: Array to string conversion
+ERROR - 2024-07-18 03:52:37 --> Error saat mengambil data: Undefined array key "data"
+CRITICAL - 2024-07-18 03:52:37 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: dataunit]
+in APPPATH\Views\pageSetting\dataUnit.php on line 154.
+ 1 APPPATH\Views\pageSetting\dataUnit.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php', 154)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dataUnit', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(151): view('pageSetting/dataUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-18 06:21:05 --> Error saat mengambil data: Undefined array key "CostCenter"
+CRITICAL - 2024-07-18 06:21:05 --> ErrorException: Undefined array key "CostCenter"
+[Method: GET, Route: dataunit]
+in APPPATH\Views\pageSetting\dataUnit.php on line 177.
+ 1 APPPATH\Views\pageSetting\dataUnit.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CostCenter"', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dataUnit', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(179): view('pageSetting/dataUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-18 06:23:12 --> Error saat mengambil data: Undefined array key "CostCenter"
+CRITICAL - 2024-07-18 06:23:12 --> ErrorException: Undefined array key "CostCenter"
+[Method: GET, Route: dataunit]
+in APPPATH\Views\pageSetting\dataUnit.php on line 177.
+ 1 APPPATH\Views\pageSetting\dataUnit.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CostCenter"', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dataUnit', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(179): view('pageSetting/dataUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-18 06:23:16 --> Error saat mengambil data: Undefined array key "CostCenter"
+CRITICAL - 2024-07-18 06:23:16 --> ErrorException: Undefined array key "CostCenter"
+[Method: GET, Route: dataunit]
+in APPPATH\Views\pageSetting\dataUnit.php on line 177.
+ 1 APPPATH\Views\pageSetting\dataUnit.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CostCenter"', 'C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\magang\\ci4\\app\\Views\\pageSetting\\dataUnit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pageSetting/dataUnit', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(179): view('pageSetting/dataUnit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->dataunit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
